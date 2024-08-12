@@ -221,3 +221,37 @@ ls
 rm *
 ls
 vi main.tf
+ls
+cd terraform
+ls
+cd ec2
+ls
+cd module_ec2
+ls
+cd ..
+ls
+cd ..
+ls
+cd s3
+ls
+cd module
+ls
+cd ..
+ls
+cd ..
+ls
+cd vpc
+ls
+cat main.tf
+ls
+cd ..
+ls
+cd ..
+ls
+git init
+git add .
+git status
+git commit -m "terraformfile"
+git remote add pen https://github.com/ramdevashram/testing.git
+git push pen
+git push pen master
