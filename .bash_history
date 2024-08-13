@@ -255,3 +255,44 @@ git commit -m "terraformfile"
 git remote add pen https://github.com/ramdevashram/testing.git
 git push pen
 git push pen master
+ls
+git init
+git add .
+git log
+git commit -m "files"
+git configure 
+git config
+git configure username "vyom"
+git commit -m 'files'
+git push pen master
+git add new git@github.com:Shivamroy-ai/aws_.git
+git remote add new git@github.com:Shivamroy-ai/aws_.git
+git push add master
+git push new main
+git push new master
+git remote add red git@github.com:Shivamroy-ai/aws_.git
+git push red master
+git push -u red main
+git remote add origin git@github.com:Shivamroy-ai/aws.git
+git push origin master
+git remote add original git@github.com:Shivamroy-ai/aws.git
+git push original master
+ls
+git remote add papa git@github.com:Shivamroy-ai/aws.git
+git push add master
+git push pap  master
+git push papa  master
+git remote add mad git@github.com:Shivamroy-ai/awsnew.git
+git push mad master
+sudo git push mad master
+cat id_rsa.pub | xclip
+git config --global user.name "bob"
+git config --global user.email "bob@gmail.com"
+sudo git push mad master
+cd ~/.ssh && ssh-keygen
+ls
+cd ..
+sudo git push mad master
+sudo git remote maa https://github.com/ramdevashram/aws.git
+sudo git remote add maa https://github.com/ramdevashram/aws.git
+git push maa master
