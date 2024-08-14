@@ -296,3 +296,24 @@ sudo git push mad master
 sudo git remote maa https://github.com/ramdevashram/aws.git
 sudo git remote add maa https://github.com/ramdevashram/aws.git
 git push maa master
+ls
+git init
+git remote add daddy https://github.com/ramdevashram/aws.git
+git push daddy master
+git config user.name 'vyom'
+git config user.email 'vyom@gmail.com'
+git push daddy master
+git push -u daddy master
+git log
+git statis
+git status
+git add .
+git status
+git commit -m 'history'
+git remote set-url lela https://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@github.com/ramdevashram/aws
+git remote set-url origin https://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@github.com/ramdevashram/aws
+git push origin  main
+git remote add lela https://github.com/ramdevashram/aws.git
+git remote set-url lela https://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@github.com/ramdevashram/aws
+git push lela main
+git push lela master
