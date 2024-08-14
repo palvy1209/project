@@ -1,0 +1,12 @@
+<suite name="FlightModule">
+
+    <test name="SearchFlight">
+<!--        <classes>-->
+<!--            <class name="org.example.excelsheets.ReadWriteExcel"/>-->
+<!--        </classes>-->
+        <classes>
+            <class name='org.example.utils.OperateDrive'/>
+            <class name="org.example.FlightModuleTest"/>
+        </classes>
+    </test>
+</suite>
