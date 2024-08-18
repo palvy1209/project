@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git') {
             steps {
-                git 'https://github.com/palvy1209/project.git'
+                git 'https://github.com/palvy1209/project/MakeMyTripAutomationProject.git'
             }
         }
         stage('maven') {
