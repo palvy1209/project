@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git') {
+            steps {
+                git 'https://github.com/palvy1209/project.git'
+            }
+        }
+        stage('maven') {
+            steps {
+                sh 'mvn clear install'
+            }
+        }
+    }
+}
