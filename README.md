@@ -7,8 +7,8 @@
              sudo apt upgrade -y
    
 3. INSTALL JAVA:---------------->
+   jenkins requires java to run. Install openjdk
    
-      jenkins requires java to run. Install openjdk
              sudo apt install openjdk-11-jdk -y
    
 5. VERIFY JAVA:----------------->
@@ -36,21 +36,27 @@ SOLUTION:-------->
 1. Manually Add the Missing Public Key
 You can manually add the missing public key using the following command:--------------->
 
-                                                                   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5BA31D57EF5975CA
+                          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5BA31D57EF5975CA
    
 This command retrieves the missing key from the keyserver and adds it to your system's list of trusted keys.
 
 3. Update Your System Again
 After adding the key, update your package list:
+
                                                                  sudo apt update
-4. Install Jenkins
+   
+5. Install Jenkins
 If the update succeeds without errors, proceed with the installation:
+
                                                                sudo apt install jenkins -y
 
 -----------------------HERE SUCCESSFULLY DOWNLOAD JENKINS----------------------------------
 Now START AND ENABLE JENKINS:
+
                                         sudo systemctl start jenkins
                                         sudo systemctl enable jenkins
+                                        
 NOW ADJUST FIREWALL :
+
                                         sudo ufw allow 8080
                                         
