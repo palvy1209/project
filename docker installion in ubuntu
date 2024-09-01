@@ -1,0 +1,33 @@
+** INSTALL DOCKER IN UBUNTU **
+
+1.UPDATE THE PACKAGE INDEX:
+
+     sudo apt-get update
+
+2.INSTALL PREREQUISITES:
+    install the necessary package for docker's installation:
+
+      sudo apt-get install apt-transport-https ca-certificate curl software-properties-common
+
+3. ADD DOCKER'S OFFICAL REPOSITORY GPG KEY:
+      run th following command to add docker's GPG key:
+
+        curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+4. ADD DOCKER'S OFFICAL REPOSITORY:
+      add the docker repository to your sources list:
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+5. UPDATE THE PACKAGE INDEX AGAIN:
+       update your package index with the new docker repository
+
+         sudo apt-get update
+
+6. INSTALL DOCKER:
+
+         sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+7. VERIFY DOCKER INSTALLATION:
+
+     sudo docker --version
